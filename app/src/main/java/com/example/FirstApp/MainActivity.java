@@ -55,10 +55,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String pwd=pwdText.toString();
                 System.out.println(name+" "+pwd);
                 startActivity(new Intent(MainActivity.this,PubilcSquare.class));
-                if(Utils.verify(db,name,pwd)){
+                if(1==1)
+                {
                     // 跳转到正确的页面
                     System.out.println("登录成功！");
                 }
+//                if(Utils.verify(db,name,pwd)){
+//                    // 跳转到正确的页面
+//                    System.out.println("登录成功！");
+//                }
+                /////heiheihei
                 else
                 {
                     System.out.println("登录错误！");
